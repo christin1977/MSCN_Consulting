@@ -1,0 +1,100 @@
+/* section menu */
+body {
+    background-color: white;
+    font-family: 'arial', Courier, monospace;
+    color: black;
+}
+.menu { 
+    background-color:#2ecc71;
+    padding: 20px 10px;
+}
+.menu a { 
+    text-decoration: none;
+    margin-right: 7px;
+}
+.menu1 {
+    float: right;
+}
+.menu2 {
+    display: inline;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.menu2:hover {
+    border: 1px solid rgb(19, 0, 128);
+    background-color: green;
+    color:white;
+}
+
+/* CSS options générales */
+section {
+    padding: 0 300px;
+}
+h1 {
+    color: rgb(23, 23, 24);  
+    text-align: center;
+}
+h2 {
+    color: green;  
+}
+h3 {
+    color: rgb(240, 24, 24);  
+    background-color:rgba(128, 128, 128, 0.349);
+}
+p {
+    color: rgb(41, 40, 39);  
+}
+a {
+    color: rgb(51, 16, 207);  
+}
+p #selecId {
+    color: rgb(243, 9, 9);  
+}
+.lorem {
+    color: rgb(92, 86, 86); 
+
+}
+/* section profil */
+.profil {
+    display: flex;
+    flex-direction: table-column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(112, 107, 107, 0.445); 
+}
+.image_profil {
+    display: inline
+    }
+    .image_profil img {
+        display: inline;
+        border-radius: 50%;
+        }
+.experiences {
+    background-color:rgba(228, 177, 11, 0.349);
+}
+/* section experiences et articles */
+.containeur {
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:60px;
+}
+
+.articles {
+    background-color:rgba(99, 151, 230, 0.349); 
+}
+.contact {
+    background-color:#447998;
+    color: white; 
+}
+.footer {
+    padding: 40px 20px
+    background-color:rgba(194, 191, 192, 0.349);
+    color: rgb(60, 9, 243);  
+}
+.icone {
+    float: right;
+    color: rgb(60, 9, 243);
+    display: flex;
+    gap: 10px;
+}
